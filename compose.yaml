@@ -15,7 +15,7 @@ services:
       - tp3_network  
   phpmyadmin:  
     container_name: tp3-pma  
-    image: phpmyadmin/phpmyadmin  
+    image: phpmyadmin/phpmyadmin
     ports:  
       - "8081:80"  
     environment:  
